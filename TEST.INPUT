@@ -1,0 +1,10 @@
+CRT "Blank input is unacceptable!!!! "
+CRT
+
+var_In = ''
+LOOP
+WHILE var_In = '' DO
+    INPUT var_In, 1 : FOR 30 ELSE END
+REPEAT
+IF var_In NE '' THEN CRT 'You entered : ', DQUOTE(var_In)
+STOP
